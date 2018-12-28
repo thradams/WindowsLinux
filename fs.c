@@ -1,6 +1,7 @@
 #include "fs.h"
 
 #ifdef _WIN32
+#include  <direct.h>
 
 bool fs_create_directory(const char* path)
 {
